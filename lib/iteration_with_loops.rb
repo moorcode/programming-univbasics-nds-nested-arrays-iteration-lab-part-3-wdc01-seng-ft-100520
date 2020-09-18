@@ -9,8 +9,9 @@ def join_nested_strings(src)
       if src[row_index][element_index] == String
         string_array << src[row_index][element_index]
       elsif src[row_index][element_index] == Integer
-        element_index += 1
+        puts ""
       end
+      element_index += 1
     end
     row_index += 1
   end
